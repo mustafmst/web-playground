@@ -12,9 +12,7 @@ app.get("/message", (req, res) => {
     console.log("reuest!!!");
     res.json("message from server");});
 
-    
 app.use(new Bundler(`${__dirname}/index.html`, {watch: true, sourceMaps: true}).middleware());
-
 
 // eslint-disable-next-line no-console
 app.listen(port, () => console.log(`Listening on port: ${port}`));
