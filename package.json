@@ -1,11 +1,14 @@
 {
-  "name": "playground",
-  "version": "0.1.0",
-  "description": "playground for varoius web tech",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Paweł Mstowski",
-  "license": "MIT"
+    "name": "playground",
+    "version": "0.1.0",
+    "description": "playground for varoius web tech",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel ./src/index.html"
+    },
+    "author": "Paweł Mstowski",
+    "license": "MIT",
+    "devDependencies": {
+        "parcel-bundler": "^1.12.3"
+    }
 }
