@@ -1,7 +1,7 @@
 {
     "name": "playground",
     "version": "0.1.0",
-    "description": "playground for varoius web tech",
+    "description": "playground for various web tech",
     "main": "index.js",
     "scripts": {
         "start": "parcel ./src/index.html"
